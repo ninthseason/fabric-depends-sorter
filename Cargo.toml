@@ -1,0 +1,11 @@
+[package]
+name = "fabric-depends-sorter"
+version = "0.1.0"
+edition = "2021"
+description = "The tool can rename mods in directory with `<SerialNumber>_<OriginName>.jar` where `SerialNumber` is the toposort result(in dependency graph) of the mod.\nThen you can manually perform a binary search to identify the conflicting modules without worrying about dependency issues."
+
+[dependencies]
+clap = { version = "4.5.16", features = ["derive"] }
+petgraph = "0.6.5"
+serde_json = "1.0.127"
+zip = "2.2.0"
