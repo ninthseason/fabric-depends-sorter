@@ -1,3 +1,7 @@
+⚠ Because dependent relationship in fabric.mod.json is not reliable, this tool almost not working.
+
+⚠ 由于 fabric.mod.json 文件中由模组作者标注的依赖关系常常不全面，该工具几乎不可用。
+
 # fabric-depends-sorter
 
 English:
